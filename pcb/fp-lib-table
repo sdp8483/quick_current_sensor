@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name pl_Banana)(type KiCad)(uri ${KIPRJMOD}/lib_fp/pl_Banana.pretty)(options "")(descr ""))
+  (lib (name PL_logo)(type KiCad)(uri ${KIPRJMOD}/lib_fp/PL_logo.pretty)(options "")(descr ""))
+  (lib (name pl_Nexperia)(type KiCad)(uri ${KIPRJMOD}/lib_fp/pl_Nexperia.pretty)(options "")(descr ""))
+)

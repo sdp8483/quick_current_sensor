@@ -1,3 +1,6 @@
 # Quick Current Sensor
 
 This is a current sensor of various ranges for DC current measurements. The number one goal of this project was to make a set of current sensors only using what I have on hand, no buying anything. Also this has to be a simple design that gets the job done. It is not then best design and will not be the most accurate so it requires characterization before use. I suggest finding a better design with properly selected components, I suggest looking into the INA series of current sense amplifiers from TI that would make a better opamp to use then the old LM358. Again the only goal of this project is to use what I have already and not to waste time searching for the perfect components. Searching for the perfect components and design is what has stalled this project for years. That is just my way of defending the terrible design decisions made here and why you should look somewhere else for a current sensor.
+
+### Calculations
+[Google Sheets Link](https://docs.google.com/spreadsheets/d/1N8hUBOZxmFQPPFe9W_K_Z5sfmQMQ_LQjQ09W4D_ssm8/edit?usp=sharing)
