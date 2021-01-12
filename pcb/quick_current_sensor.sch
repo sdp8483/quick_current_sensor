@@ -52,10 +52,10 @@ U 1 1 5FFCE403
 P 3900 3400
 F 0 "R4" V 3980 3400 50  0000 C CNN
 F 1 "Rs" V 3900 3400 50  0000 C CNN
-F 2 "" V 3830 3400 50  0001 C CNN
+F 2 "pl_DalePR:RH-10" V 3830 3400 50  0001 C CNN
 F 3 "~" H 3900 3400 50  0001 C CNN
 	1    3900 3400
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R R2
@@ -178,9 +178,6 @@ Wire Wire Line
 	3600 3100 3900 3100
 Wire Wire Line
 	3900 3100 3900 3250
-Wire Wire Line
-	3900 3100 4800 3100
-Connection ~ 3900 3100
 Wire Wire Line
 	5400 3200 5550 3200
 Wire Wire Line
@@ -663,4 +660,20 @@ F 3 "~" H 1500 4000 50  0001 C CNN
 	1    1500 4000
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R R8
+U 1 1 5FFF27F8
+P 4300 3100
+F 0 "R8" V 4380 3100 50  0000 C CNN
+F 1 "0" V 4300 3100 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4230 3100 50  0001 C CNN
+F 3 "~" H 4300 3100 50  0001 C CNN
+	1    4300 3100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4450 3100 4800 3100
+Wire Wire Line
+	4150 3100 3900 3100
+Connection ~ 3900 3100
 $EndSCHEMATC
