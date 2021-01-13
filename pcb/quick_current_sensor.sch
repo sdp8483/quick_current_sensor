@@ -363,7 +363,7 @@ U 1 1 600A860F
 P 3500 1600
 F 0 "U2" H 3400 1700 50  0000 C CNN
 F 1 "TL431LP" H 3500 1500 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3500 1450 50  0001 C CIN
+F 2 "Package_TO_SOT_THT:TO-92_W4.0mm_StaggerEven_Horizontal_FlatSideDown" H 3500 1450 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/tl431.pdf" H 3500 1600 50  0001 C CIN
 	1    3500 1600
 	0    -1   -1   0   
