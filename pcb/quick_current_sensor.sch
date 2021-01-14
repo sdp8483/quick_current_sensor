@@ -548,77 +548,7 @@ Wire Wire Line
 Connection ~ 7300 4550
 Wire Wire Line
 	7300 4550 7350 4550
-$Comp
-L Mechanical:MountingHole H1
-U 1 1 6022130F
-P 2950 4350
-F 0 "H1" H 2950 4550 50  0000 C CNN
-F 1 "MountingHole" H 2950 4475 50  0000 C CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 2950 4350 50  0001 C CNN
-F 3 "~" H 2950 4350 50  0001 C CNN
-	1    2950 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H3
-U 1 1 60221DA9
-P 3450 4350
-F 0 "H3" H 3450 4550 50  0000 C CNN
-F 1 "MountingHole" H 3450 4475 50  0000 C CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 3450 4350 50  0001 C CNN
-F 3 "~" H 3450 4350 50  0001 C CNN
-	1    3450 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H2
-U 1 1 602225A1
-P 2950 4850
-F 0 "H2" H 2950 5050 50  0000 C CNN
-F 1 "MountingHole" H 2950 4975 50  0000 C CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 2950 4850 50  0001 C CNN
-F 3 "~" H 2950 4850 50  0001 C CNN
-	1    2950 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H4
-U 1 1 60222CEF
-P 3450 4850
-F 0 "H4" H 3450 5050 50  0000 C CNN
-F 1 "MountingHole" H 3450 4975 50  0000 C CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 3450 4850 50  0001 C CNN
-F 3 "~" H 3450 4850 50  0001 C CNN
-	1    3450 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R8
-U 1 1 5FFF27F8
-P 6250 3950
-F 0 "R8" V 6330 3950 50  0000 C CNN
-F 1 "0" V 6250 3950 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6180 3950 50  0001 C CNN
-F 3 "~" H 6250 3950 50  0001 C CNN
-	1    6250 3950
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6400 3950 6750 3950
-Wire Wire Line
-	6100 3950 5850 3950
 Connection ~ 5850 3950
-$Comp
-L Connector_Generic:Conn_01x02 J1
-U 1 1 60018C46
-P 2450 1900
-F 0 "J1" H 2450 2000 50  0000 C CNN
-F 1 "PWR" H 2450 1700 50  0000 C CNN
-F 2 "pl_TerminalBlock:WJ127-5.0-2P" H 2450 1900 50  0001 C CNN
-F 3 "~" H 2450 1900 50  0001 C CNN
-	1    2450 1900
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	2650 2000 2750 2000
 Wire Wire Line
@@ -658,4 +588,17 @@ F 3 "~" H 5400 4550 50  0001 C CNN
 	1    5400 4550
 	-1   0    0    1   
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 60018C46
+P 2450 1900
+F 0 "J1" H 2450 2000 50  0000 C CNN
+F 1 "PWR" H 2450 1700 50  0000 C CNN
+F 2 "pl_TerminalBlock:WJ127-5.0-2P" H 2450 1900 50  0001 C CNN
+F 3 "~" H 2450 1900 50  0001 C CNN
+	1    2450 1900
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 3950 6750 3950
 $EndSCHEMATC
